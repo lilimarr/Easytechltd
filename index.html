@@ -1,0 +1,2266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EasyDesign Tech ltd</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body class="bg-black">
+    <!-- navigation section  -->
+
+    <!-- desktop nav  -->
+
+    <nav class="fixed top-0 left-0 w-full bg-black text-white shadow-md z-50">
+      <div
+        class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4"
+      >
+        <!-- Logo -->
+        <div class="flex items-center gap-2">
+          <img src="images/Eassylogo.png" alt="Logo" class="w-8 h-8" />
+          <span class="font-bold text-lg">EasyDesign Tech Ltd</span>
+        </div>
+
+        <!-- Links -->
+        <ul class="hidden lg:flex gap-6">
+          <li><a href="#home" class="hover:text-red-500">About</a></li>
+          <li><a href="#services" class="hover:text-red-500">Services</a></li>
+          <li><a href="#about" class="hover:text-red-500">Pricing</a></li>
+          <li><a href="#contact" class="hover:text-red-50">Contact</a></li>
+        </ul>
+        <button class="flex lg:hidden" id="menuBtn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-menu-icon lucide-menu"
+          >
+            <path d="M4 5h16" />
+            <path d="M4 12h16" />
+            <path d="M4 19h16" />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <!-- mobile nav items -->
+    <div
+      class="hidden flex flex-col justify-center items-center w-[50vw] px-8 py-4 rounded-xl shadow-md gap-8 lg:hidden bg-white text-black absolute z-1000 right-4"
+      id="menuStuff"
+    >
+      <a href="#" class="text-gray-400 hover:text-black">About</a>
+
+      <a href="#" class="text-gray-400 hover:text-black">Services</a>
+      <a href="#" class="text-gray-400 hover:text-black">Pricing</a>
+      <a href="#" class="text-gray-400 hover:text-black">Contact</a>
+    </div>
+
+    <!-- hero section  -->
+    <section
+      class="grid grid-cols-1 lg:grid-cols-2 pt-1 items-center lg:max-w-[95vw] mx-auto bg-gray-500/10 mt-20 lg:mx-auto"
+    >
+      <div class="relative isolate px-6 pt-4 lg:px-2">
+        <div class="mx-auto max-w-2xl">
+          <div class="sm:mb-8 sm:flex sm:justify-left">
+            <div
+              class="relative rounded-full px-3 py-1 text-sm/6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20 mb-10"
+            >
+              Welcome to EasyDesign Tech Ltd.
+            </div>
+          </div>
+          <div class="text-left">
+            <h1
+              class="text-6xl font-semibold tracking-tight text-balance text-white sm:text-7xl"
+            >
+              Let's Build
+            </h1>
+            <h1
+              class="text-6xl font-semibold tracking-tight text-balance text-red-500 sm:text-7xl"
+            >
+              The Future Together
+            </h1>
+            <p
+              class="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8"
+            >
+              We power your brand with seamless
+              <span class="text-red-500">eSIM solutions</span>, stunning
+              <span class="text-red-500">web & app development</span>, bold
+              <span class="text-red-500">branding</span>, and smart
+              <span class="text-red-500">data systems</span> - all crafted to
+              help your business grow faster and smarter.
+            </p>
+            <p
+              class="mt-5 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8"
+            >
+              Tech made simple. Results made real.
+            </p>
+            <div
+              class="mt-10 flex flex-col items-center justify-left gap-x-6 sm:flex-row sm:items-center sm:justify-start sm:gap-x-6"
+            >
+              <a
+                href="#"
+                class="rounded-md bg-red-500 px-24 py-2.5 lg:px-8.5 text-sm font-semibold text-white shadow-xs hover:bg-red-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 sm:mb-0 mb-4"
+                >Start Your Journey <span aria-hidden="true">→</span></a
+              >
+              <a
+                href="#"
+                class="rounded-md bg-gray-500/20 px-28 py-2.5 lg:px-6.5 text-sm font-semibold text-white shadow-xs hover:bg-red-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                >View Portfolio <span aria-hidden="true">▷</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-hidden="true"
+          class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+        ></div>
+      </div>
+
+      <div class="flex-1 flex justify-end items-center p-10 md:justify-center">
+        <img
+          src="images/robot.png"
+          alt="robot"
+          class="rounded-2xl shadow-lg w-100"
+          data-aos="flip-right"
+          data-aos-duration="1000"
+        />
+      </div>
+    </section>
+    <!-- about section  -->
+    <section class="grid grid-cols-1 lg:grid-cols-2 lg:max-w-[95vw] mx-auto">
+      <div class="p-8">
+        <div class="relative isolate px-6 pt-4 lg:px-2">
+          <div
+            class="relative inline-block rounded-full px-3 py-1 text-sm text-red-500 ring-1 ring-white/10 hover:ring-white/20 mb-10"
+          >
+            About Us
+          </div>
+          <div class="text-left">
+            <h2
+              class="text-3xl lg:text-5xl font-semibold tracking-tight text-balance text-white"
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
+            >
+              Crafting Digital
+            </h2>
+            <h2
+              class="text-2xl lg:text-5xl font-semibold tracking-tight text-balance text-red-500"
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
+            >
+              Experiences for Success
+            </h2>
+            <p
+              class="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8"
+              data-aos="zoom-in-down"
+              data-aos-duration="1000"
+            >
+              At EasyDesign Tech Ltd., we specialize in creating stunning,
+              high-performance websites and digital solutions tailored to your
+              business needs. With a team of skilled developers and designers,
+              we are committed to delivering innovative and effective web
+              development services that help you stand out in the digital
+              world..
+            </p>
+            <p
+              class="mt-5 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8"
+              data-aos="zoom-in-down"
+              data-aos-duration="1000"
+            >
+              Our approach is simple yet effective: we listen to your goals,
+              understand your audience, and deliver a product that not only
+              looks great but also drives results. From bespoke websites to
+              complex web applications, our expertise covers all aspects of
+              digital design and development
+            </p>
+            <div class="" data-aos="zoom-in-down" data-aos-duration="1000">
+              <p
+                class="flex items-center gap-2 text-gray-400 sm:text-xl/8 pt-6"
+              >
+                <img src="images/tick1.png" alt="" />
+                Stunning, high-performance websites
+              </p>
+
+              <p
+                class="flex items-center gap-2 text-gray-400 sm:text-xl/8 pt-2"
+              >
+                <img src="images/tick1.png" alt="" />
+                Tailored digital solutions
+              </p>
+              <p
+                class="flex items-center gap-2 text-gray-400 sm:text-xl/8 pt-2"
+              >
+                <img src="images/tick1.png" alt="" />
+                Innovative web development services
+              </p>
+              <p
+                class="flex items-center gap-2 text-gray-400 sm:text-xl/8 pt-2"
+              >
+                <img src="images/tick1.png" alt="" class="text-red-500" />
+                Results-driven design approach
+              </p>
+              <p
+                class="flex items-center gap-2 text-gray-400 sm:text-xl/8 pt-2"
+              >
+                <img src="images/tick1.png" alt="" />
+                Complete digital transformation
+              </p>
+            </div>
+
+            <div class="mt-10 flex items-center justify-left gap-x-6">
+              <a
+                href="#"
+                class="rounded-md bg-red-500 px-8.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-red-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                >Let's Talk About Your Project
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="space-y-6 p-6 pt-10 lg:pt-60">
+        <!-- Card 1 -->
+        <div
+          class="flex items-start space-x-4 rounded-xl bg-gray-500/20 p-6 border border-gray-800"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+        >
+          <div
+            class="flex h-12 w-12 items-center justify-center rounded-lg bg-red-500/20"
+          >
+            <img
+              src="images/circle.png"
+              alt="Goal Icon"
+              class="h-6 w-6 text-red-500"
+            />
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-white">
+              Goal-Oriented Approach
+            </h3>
+            <p class="mt-2 text-gray-400">
+              We listen to your goals and understand your audience to deliver
+              targeted solutions.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="flex items-start space-x-4 rounded-xl bg-gray-500/20 p-6 border border-gray-800"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+        >
+          <div
+            class="flex h-12 w-12 items-center justify-center rounded-lg bg-red-500/20"
+          >
+            <img
+              src="images/thunder.png"
+              alt="Tech Icon"
+              class="h-6 w-6 text-red-500"
+            />
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-white">
+              Cutting-Edge Technology
+            </h3>
+            <p class="mt-2 text-gray-400">
+              Using the latest technologies to build sites that help you stand
+              out digitally.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="flex items-start space-x-4 rounded-xl bg-gray-500/20 p-6 border border-gray-800"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+        >
+          <div
+            class="flex h-12 w-12 items-center justify-center rounded-lg bg-red-500/20"
+          >
+            <img
+              src="images/contact.png"
+              alt="Team Icon"
+              class="h-6 w-6 text-red-500"
+            />
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-white">Expert Team</h3>
+            <p class="mt-2 text-gray-400">
+              Skilled developers and designers working collaboratively to bring
+              your vision to life.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- esim section  -->
+    <section
+      class="flex justify-center items-center p-10 gp-8 lg:max-w-[95vw] mx-auto bg-black mt-10 lg:mt-30"
+      data-aos="zoom-in-up"
+      data-aos-duration="1000"
+    >
+      <div class="text-center text-balance text-pretty">
+        <div
+          class="relative inline-block rounded-full px-3 py-1 text-sm text-red-500 ring-1 ring-white/10 hover:ring-white/20 mb-10"
+        >
+          eSIM Technology
+        </div>
+        <h2
+          class="text-5xl font-semibold tracking-tight text-balance text-white"
+        >
+          Stay Connected
+        </h2>
+        <h2
+          class="text-5xl font-semibold tracking-tight text-balance text-red-500"
+        >
+          Worldwide
+        </h2>
+        <p class="mt-6 text-lg font-medium text-gray-400 sm:text-xl/8">
+          Experience seamless global connectivity with our advanced eSIM
+          solutions. No more switching SIM cards or worrying about roaming
+          charges.
+        </p>
+      </div>
+    </section>
+    <section class="bg-black px-6 py-16 lg:max-w-[95vw] mx-auto bg-gray-500/10">
+      <div
+        class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center bg-[#111] rounded-2xl overflow-hidden"
+        data-aos="zoom-in-up"
+        data-aos-duration="1000"
+      >
+        <!-- Left Content -->
+        <div class="p-10">
+          <h2 class="text-3xl font-bold text-red-500 mb-4">
+            Revolutionary eSIM Technology
+          </h2>
+          <p class="text-gray-300 mb-8">
+            Transform how you stay connected with our cutting-edge eSIM
+            solutions. Perfect for travelers, businesses, and anyone who needs
+            reliable global connectivity.
+          </p>
+
+          <!-- Features List -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 mb-10">
+            <div class="flex items-center gap-2 text-gray-300">
+              <span class="text-red-500">✔</span> No roaming charges
+            </div>
+            <div class="flex items-center gap-2 text-gray-300">
+              <span class="text-red-500">✔</span> Multiple data plans
+            </div>
+            <div class="flex items-center gap-2 text-gray-300">
+              <span class="text-red-500">✔</span> Instant connectivity
+            </div>
+            <div class="flex items-center gap-2 text-gray-300">
+              <span class="text-red-500">✔</span> Eco-friendly solution
+            </div>
+            <div class="flex items-center gap-2 text-gray-300">
+              <span class="text-red-500">✔</span> Device compatibility
+            </div>
+            <div class="flex items-center gap-2 text-gray-300">
+              <span class="text-red-500">✔</span> Cost-effective rates
+            </div>
+          </div>
+
+          <!-- Buttons -->
+          <div class="flex flex-wrap gap-4">
+            <a
+              href="#"
+              class="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-medium shadow-md flex items-center gap-2"
+            >
+              Get Your eSIM Now →
+            </a>
+            <a
+              href="#"
+              class="bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-medium shadow-md"
+            >
+              View Data Plans
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Image -->
+        <div class="relative">
+          <img src="images/phomesim.png" alt="" />
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-16 lg:max-w-[95vw] mx-auto"
+        data-aos="zoom-in-up"
+        data-aos-duration="1000"
+      >
+        <div class="bg-[#111] p-6 rounded-lg text-white gap-6">
+          <div class="flex justify-center items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-globe-icon lucide-globe text-red-500 mb-5"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+              <path d="M2 12h20"
+            </svg>
+            />
+          </div>
+          <h2 class="text-white text-xl font-bold text-center mb-10">
+            Global Coverages
+          </h2>
+          <p class="text-gray-400">
+            Stay connected in 190+ countries with our extensive eSIM network
+            coverage.
+          </p>
+        </div>
+        <div class="bg-[#111] p-6 rounded-lg text-white gap-6">
+          <div class="flex justify-center items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-zap-icon lucide-zap text-red-500 mb-5"
+            >
+              <path
+                d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"
+              />
+            </svg>
+          </div>
+          <h2 class="text-white text-xl font-bold text-center mb-10">
+            Instant Activation
+          </h2>
+          <p class="text-gray-400">
+            Get connected instantly with QR code activation - no physical SIM
+            required.
+          </p>
+        </div>
+        <div class="bg-[#111] p-6 rounded-lg text-white gap-6">
+          <div class="flex justify-center items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-shield-icon lucide-shield text-red-500 mb-5"
+            >
+              <path
+                d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+              />
+            </svg>
+          </div>
+          <h2 class="text-white text-xl font-bold text-center mb-10">
+            Secure Connection
+          </h2>
+          <p class="text-gray-400">
+            Enterprise-grade security with encrypted data transmission
+            worldwide.
+          </p>
+        </div>
+
+        <div class="bg-[#111] p-6 rounded-lg text-white gap-6">
+          <div class="flex justify-center items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-clock-icon lucide-clock text-red-500 mb-5"
+            >
+              <path d="M12 6v6l4 2" />
+              <circle cx="12" cy="12" r="10" />
+            </svg>
+          </div>
+          <h2 class="text-white text-xl font-bold text-center mb-10">
+            24/7 Support
+          </h2>
+          <p class="text-gray-400">
+            Round-the-clock customer support to help you stay connected
+            anywhere.
+          </p>
+        </div>
+      </div>
+      <div
+        class="max-w-7xl mt-20 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center bg-[#111] rounded-2xl overflow-hidden bg-red-500/10"
+      >
+        <!-- left Image -->
+        <div class="relative">
+          <img src="images/simcard.png" alt="" />
+        </div>
+
+        <!-- right Content -->
+        <div class="p-10">
+          <h2 class="text-3xl font-bold text-red-500 mb-4">
+            Ready to Go Global?
+          </h2>
+          <p class="text-gray-300 mb-8">
+            Join thousands of satisfied customers who trust our eSIM solutions
+            for their global connectivity needs. Get started today and
+            experience freedom from traditional SIM limitations.
+          </p>
+
+          <!-- Buttons -->
+          <div class="flex flex-wrap gap-4">
+            <a
+              href="#"
+              class="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-medium shadow-md flex items-center gap-2"
+            >
+              Star Free Trial
+            </a>
+            <a
+              href="#"
+              class="bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-medium shadow-md"
+            >
+              Contact Sales
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- design that works for you  -->
+
+    <section
+      class="flex justify-center items-center p-10 gp-8 lg:max-w-[95vw] mx-auto bg-black mt-10 lg:mt-30"
+      data-aos="zoom-in-up"
+      data-aos-duration="1000"
+    >
+      <div class="text-center text-balance text-pretty">
+        <div
+          class="relative inline-block rounded-full px-3 py-1 text-sm text-red-500 ring-1 ring-white/10 hover:ring-white/20 mb-10"
+        >
+          Design Excellence
+        </div>
+        <h2
+          class="text-5xl font-semibold tracking-tight text-balance text-red-500"
+        >
+          Design that Works Hard for Your Brand
+        </h2>
+
+        <p class="mt-6 text-lg font-medium text-gray-400 sm:text-xl/8">
+          Explore our design capabilities, choose the plan that fits, and browse
+          selected works from our portfolio.
+        </p>
+      </div>
+    </section>
+    <div
+      class="grid grid-cols-1 p-10 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-5 lg:mt-16 lg:max-w-[95vw]"
+      data-aos="zoom-in-up"
+      data-aos-duration="1000"
+    >
+      <div
+        class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
+      >
+        <div class="flex justify-center items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-palette-icon lucide-palette text-red-500 mb-5"
+          >
+            <path
+              d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"
+            />
+            <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" />
+            <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" />
+            <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" />
+            <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" />
+          </svg>
+        </div>
+        <h2 class="text-white text-xl font-bold text-center mb-10">
+          UI/UX Design
+        </h2>
+        <p class="text-gray-400">
+          Human-centered, accessible interfaces that delight users and drive
+          business outcomes.
+        </p>
+      </div>
+      <div
+        class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
+      >
+        <div class="flex justify-center items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-pen-tool-icon lucide-pen-tool text-red-500 mb-5"
+          >
+            <path
+              d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"
+            />
+            <path
+              d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"
+            />
+            <path d="m2.3 2.3 7.286 7.286" />
+            <circle cx="11" cy="11" r="2" />
+          </svg>
+        </div>
+        <h2 class="text-white text-xl font-bold text-center mb-10">
+          Branding & Identity
+        </h2>
+        <p class="text-gray-400">
+          Distinctive brand systems, from logos to style guides, built for
+          consistency.
+        </p>
+      </div>
+      <div
+        class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
+      >
+        <div class="flex justify-center items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-brush-icon lucide-brush text-red-500 mb-5"
+          >
+            <path d="m11 10 3 3" />
+            <path
+              d="M6.5 21A3.5 3.5 0 1 0 3 17.5a2.62 2.62 0 0 1-.708 1.792A1 1 0 0 0 3 21z"
+            />
+            <path
+              d="M9.969 17.031 21.378 5.624a1 1 0 0 0-3.002-3.002L6.967 14.031"
+            />
+          </svg>
+        </div>
+        <h2 class="text-white text-xl font-bold text-center mb-10">
+          Graphic Design
+        </h2>
+        <p class="text-gray-400">
+          Compelling visuals for campaigns, social media, and presentations.
+        </p>
+      </div>
+
+      <div
+        class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
+      >
+        <div class="flex justify-center items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-layout-template-icon lucide-layout-template text-red-500 mb-5"
+          >
+            <rect width="18" height="7" x="3" y="3" rx="1" />
+            <rect width="9" height="7" x="3" y="14" rx="1" />
+            <rect width="5" height="7" x="16" y="14" rx="1" />
+          </svg>
+        </div>
+        <h2 class="text-white text-xl font-bold text-center mb-10">
+          Responsive Layouts
+        </h2>
+        <p class="text-gray-400">
+          Pixel-perfect experiences across devices with mobile-first thinking.
+        </p>
+      </div>
+    </div>
+
+    <!-- what we can do for you section  -->
+
+    <section
+      class="flex justify-center items-center p-10 gp-8 lg:max-w-[95vw] mx-auto bg-black mt-30"
+      data-aos="zoom-in-up"
+      data-aos-duration="1000"
+    >
+      <div class="text-center text-balance text-pretty">
+        <div
+          class="relative inline-block rounded-full px-3 py-1 text-sm text-red-500 ring-1 ring-white/10 hover:ring-white/20 mb-10"
+        >
+          Our Services
+        </div>
+        <h2
+          class="text-5xl font-semibold tracking-tight text-balance text-white"
+        >
+          What We Can Do
+        </h2>
+        <h2
+          class="text-5xl font-semibold tracking-tight text-balance text-red-500"
+        >
+          For You
+        </h2>
+
+        <p class="mt-6 text-lg font-medium text-gray-400 sm:text-xl/8">
+          At EasyDesign Tech Ltd., we provide a range of digital solutions
+          tailored to elevate your business. Our expertise spans from web
+          development to digital marketing, ensuring your brand reaches its full
+          potential online.
+        </p>
+      </div>
+    </section>
+    <div
+      class="grid grid-cols-1 p-10 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-16 lg:max-w-[95vw] mx-auto"
+      data-aos="zoom-in-up"
+      data-aos-duration="1000"
+    >
+      <div
+        class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
+      >
+        <div class="flex justify-center items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-palette-icon lucide-palette text-red-500 mb-5"
+          >
+            <path
+              d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"
+            />
+            <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" />
+            <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" />
+            <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" />
+            <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" />
+          </svg>
+        </div>
+        <h2 class="text-white text-xl font-bold text-center mb-10">
+          Web Development
+        </h2>
+        <p class="text-gray-400">
+          We build responsive and dynamic websites that deliver a seamless user
+          experience across all devices.
+        </p>
+        <ul class="list-disc marker:text-red-500 text-gray-400 pl-5">
+          <li>Custom Development</li>
+          <li>Modern Frameworks</li>
+          <li>Performance Optimized</li>
+        </ul>
+        <div class="mt-4">
+          <a
+            href="#"
+            class="bg-gray-900 hover:bg-red-500 text-white px-6 py-3 rounded-lg font-medium shadow-md"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+      <div
+        class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
+      >
+        <div class="flex justify-center items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-pen-tool-icon lucide-pen-tool text-red-500 mb-5"
+          >
+            <path
+              d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"
+            />
+            <path
+              d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"
+            />
+            <path d="m2.3 2.3 7.286 7.286" />
+            <circle cx="11" cy="11" r="2" />
+          </svg>
+        </div>
+        <h2 class="text-white text-xl font-bold text-center mb-10">
+          UI/UX Design
+        </h2>
+        <p class="text-gray-400">
+          Creating visually appealing and intuitive designs to enhance user
+          interaction and engagement.
+        </p>
+        <ul class="text-gray-400 list-disc marker:text-red-500 pl-5">
+          <li>User Research</li>
+          <li>Wireframing</li>
+          <li>Prototyping</li>
+        </ul>
+        <div class="mt-4">
+          <a
+            href="#"
+            class="bg-gray-900 hover:bg-red-500 text-white px-6 py-3 rounded-lg font-medium shadow-md"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+      <div
+        class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
+      >
+        <div class="flex justify-center items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-brush-icon lucide-brush text-red-500 mb-5"
+          >
+            <path d="m11 10 3 3" />
+            <path
+              d="M6.5 21A3.5 3.5 0 1 0 3 17.5a2.62 2.62 0 0 1-.708 1.792A1 1 0 0 0 3 21z"
+            />
+            <path
+              d="M9.969 17.031 21.378 5.624a1 1 0 0 0-3.002-3.002L6.967 14.031"
+            />
+          </svg>
+        </div>
+        <h2 class="text-white text-xl font-bold text-center mb-10">
+          Mobile App Development
+        </h2>
+        <p class="text-gray-400">
+          Developing mobile applications that offer robust and engaging
+          experiences on iOS and Android.
+        </p>
+        <ul class="text-gray-400 list-disc marker:text-red-500 pl-5">
+          <li>Native Development</li>
+          <li>Cross-Platform</li>
+          <li>App Store Optimization</li>
+        </ul>
+        <div class="mt-4">
+          <a
+            href="#"
+            class="bg-gray-900 hover:bg-red-500 text-white px-6 py-3 rounded-lg font-medium shadow-md"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
+      >
+        <div class="flex justify-center items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-layout-template-icon lucide-layout-template text-red-500 mb-5"
+          >
+            <rect width="18" height="7" x="3" y="3" rx="1" />
+            <rect width="9" height="7" x="3" y="14" rx="1" />
+            <rect width="5" height="7" x="16" y="14" rx="1" />
+          </svg>
+        </div>
+        <h2 class="text-white text-xl font-bold text-center mb-10">
+          Responsive Designs
+        </h2>
+        <p class="text-gray-400">
+          Mobile-first designs that look great on any device, ensuring seamless
+          experience across platforms.
+        </p>
+        <ul class="text-gray-400 list-disc marker:text-red-500 pl-5">
+          <li>Mobile First</li>
+          <li>Cross-Browserks</li>
+          <li>Accessibility</li>
+        </ul>
+        <div class="mt-4">
+          <a
+            href="#"
+            class="bg-gray-900 hover:bg-red-500 text-white px-6 py-3 rounded-lg font-medium shadow-md"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-10 lg:max-w-[95vw] mx-auto"
+      data-aos="zoom-in-up"
+      data-aos-duration="1000"
+    >
+      <div
+        class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
+      >
+        <div class="flex justify-center items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-palette-icon lucide-palette text-red-500 mb-5"
+          >
+            <path
+              d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"
+            />
+            <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" />
+            <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" />
+            <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" />
+            <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" />
+          </svg>
+        </div>
+        <h2 class="text-white text-xl font-bold text-center mb-10">
+          SEO Optimization
+        </h2>
+        <p class="text-gray-400">
+          Optimizing your website to improve search engine rankings and increase
+          organic traffic.
+        </p>
+        <ul class="text-gray-400 list-disc marker:text-red-500 pl-5">
+          <li>Technical SEO</li>
+          <li>Content Strategy</li>
+          <li>Analytics</li>
+        </ul>
+        <div class="mt-4">
+          <a
+            href="#"
+            class="bg-gray-900 hover:bg-red-500 text-white px-6 py-3 rounded-lg font-medium shadow-md"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+      <div
+        class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
+      >
+        <div class="flex justify-center items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-pen-tool-icon lucide-pen-tool text-red-500 mb-5"
+          >
+            <path
+              d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"
+            />
+            <path
+              d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"
+            />
+            <path d="m2.3 2.3 7.286 7.286" />
+            <circle cx="11" cy="11" r="2" />
+          </svg>
+        </div>
+        <h2 class="text-white text-xl font-bold text-center mb-10">
+          Digital Marketing
+        </h2>
+        <p class="text-gray-400">
+          Implementing effective digital marketing strategies to increase online
+          visibility and conversions.
+        </p>
+        <ul class="text-gray-400 list-disc marker:text-red-500 pl-5">
+          <li>Social Media</li>
+          <li>PPC Campaigns</li>
+          <li>Content Marketing</li>
+        </ul>
+        <div class="mt-4">
+          <a
+            href="#"
+            class="bg-gray-900 hover:bg-red-500 text-white px-6 py-3 rounded-lg font-medium shadow-md"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+      <div
+        class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
+      >
+        <div class="flex justify-center items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-brush-icon lucide-brush text-red-500 mb-5"
+          >
+            <path d="m11 10 3 3" />
+            <path
+              d="M6.5 21A3.5 3.5 0 1 0 3 17.5a2.62 2.62 0 0 1-.708 1.792A1 1 0 0 0 3 21z"
+            />
+            <path
+              d="M9.969 17.031 21.378 5.624a1 1 0 0 0-3.002-3.002L6.967 14.031"
+            />
+          </svg>
+        </div>
+        <h2 class="text-white text-xl font-bold text-center mb-10">
+          Web Hosting & Maintenance
+        </h2>
+        <p class="text-gray-400">
+          Providing reliable hosting services and ongoing maintenance to ensure
+          smooth website operation.
+        </p>
+        <ul class="text-gray-400 list-disc marker:text-red-500 pl-5">
+          <li>Secure Hosting</li>
+          <li>24/7 Monitoring</li>
+          <li>Regular Updates</li>
+        </ul>
+        <div class="mt-4">
+          <a
+            href="#"
+            class="bg-gray-900 hover:bg-red-500 text-white px-6 py-3 rounded-lg font-medium shadow-md"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
+      >
+        <div class="flex justify-center items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-layout-template-icon lucide-layout-template text-red-500 mb-5"
+          >
+            <rect width="18" height="7" x="3" y="3" rx="1" />
+            <rect width="9" height="7" x="3" y="14" rx="1" />
+            <rect width="5" height="7" x="16" y="14" rx="1" />
+          </svg>
+        </div>
+        <h2 class="text-white text-xl font-bold text-center mb-10">
+          Performance Optimization
+        </h2>
+        <p class="text-gray-400">
+          Websites optimized for speed and SEO, ensuring fast load times and top
+          search engine rankings.
+        </p>
+        <ul class="text-gray-400 list-disc marker:text-red-500 pl-5">
+          <li>Speed Optimization</li>
+          <li>Core Web Vitals</li>
+          <li>Caching Solutions</li>
+        </ul>
+        <div class="mt-4">
+          <a
+            href="#"
+            class="bg-gray-900 hover:bg-red-500 text-white px-6 py-3 rounded-lg font-medium shadow-md"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ready to start your project section  -->
+    <div
+      class="max-w-7xl mt-20 p-10 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center bg-[#111] rounded-2xl overflow-hidden lg:max-w-[95vw] mx-auto"
+    >
+      <!-- left Content -->
+      <div class="p-10">
+        <h2 class="text-3xl font-bold text-red-500 mb-4">
+          Ready to Go Global?
+        </h2>
+        <p class="text-gray-300 mb-8">
+          Join thousands of satisfied customers who trust our eSIM solutions for
+          their global connectivity needs. Get started today and experience
+          freedom from traditional SIM limitations.
+        </p>
+
+        <!-- Buttons -->
+        <div class="flex flex-wrap gap-4">
+          <a
+            href="#"
+            class="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-medium shadow-md flex items-center gap-2"
+          >
+            Get Free Consultation
+          </a>
+        </div>
+      </div>
+      <!-- right Image -->
+      <div class="relative">
+        <img src="images/ready.png" alt="" />
+      </div>
+    </div>
+
+    <section
+      class="flex justify-center items-center p-10 gp-8 lg:max-w-[95vw] mx-auto bg-black mt-30"
+      data-aos="zoom-in-up"
+      data-aos-duration="1000"
+    >
+      <div class="text-center text-balance text-pretty">
+        <div
+          class="relative inline-block rounded-full px-3 py-1 text-sm text-red-500 ring-1 ring-white/10 hover:ring-white/20 mb-10"
+        >
+          Pricing Plans
+        </div>
+        <h2
+          class="text-5xl font-semibold tracking-tight text-balance text-white"
+        >
+          Not Sure Which Plan
+        </h2>
+        <h2
+          class="text-5xl font-semibold tracking-tight text-balance text-red-500"
+        >
+          Is For You
+        </h2>
+
+        <p class="mt-6 text-lg font-medium text-gray-400 sm:text-xl/8">
+          Our pricing is flexible and tailored to each project. We cater to both
+          UK and international clients, offering customized web solutions and a
+          range of additional services, such as branding, graphic design, and
+          social media management, based on the complexity and requirements of
+          your project.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="bg-black px-6 py-16"
+      data-aos="zoom-in-up"
+      data-aos-duration="1000"
+    >
+      <div class="max-w-7xl mx-auto">
+        <!-- Pricing Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- BASIC Plan -->
+          <div
+            class="bg-[#111] border border-gray-700 rounded-2xl p-8 flex flex-col justify-between shadow-md hover:shadow-lg transition"
+          >
+            <div>
+              <h3 class="text-xl font-bold text-red-500 mb-2 text-center">
+                BASIC
+              </h3>
+              <p class="text-3xl font-extrabold text-white mb-1 text-center">
+                £500
+                <span class="text-base font-normal text-gray-400 text-center"
+                  >starting from</span
+                >
+              </p>
+              <p class="text-gray-400 mb-6 text-center">
+                Perfect for small businesses getting started
+              </p>
+
+              <ul class="space-y-3 text-gray-300">
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Standard Website Design
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Basic Branding Consultation
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Basic Customer Support
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  SEO Setup
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Social Media Setup Assistance
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Graphic Design
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Video Editing
+                </li>
+              </ul>
+            </div>
+            <div class="mt-8">
+              <a
+                href="#"
+                class="block w-full text-center bg-red-500 hover:bg-red-600 text-white py-3 rounded-lg font-medium transition"
+              >
+                Request a Quote
+              </a>
+            </div>
+          </div>
+
+          <!-- STANDARD Plan -->
+          <div
+            class="bg-[#111] border border-red-500 rounded-2xl p-8 flex flex-col justify-between shadow-md hover:shadow-lg transition"
+          >
+            <div>
+              <h3 class="text-xl font-bold text-red-500 mb-2 text-center">
+                STANDARD
+              </h3>
+              <p class="text-3xl font-extrabold text-white mb-1 text-center">
+                £1000
+                <span class="text-base font-normal text-gray-400 text-center"
+                  >starting from</span
+                >
+              </p>
+              <p class="text-gray-400 mb-6 text-center">
+                Most popular choice for growing businesses
+              </p>
+
+              <ul class="space-y-3 text-gray-300">
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Custom Website Design
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Comprehensive Branding Services
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Priority Customer Support
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  SEO Optimization
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Social Media Management
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Basic Video Editing
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Email Integration
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  E-commerce Support
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Advanced Customizations
+                </li>
+              </ul>
+            </div>
+            <div class="mt-8">
+              <a
+                href="#"
+                class="block w-full text-center bg-red-500 hover:bg-red-600 text-white py-3 rounded-lg font-medium transition"
+              >
+                Request a Quote
+              </a>
+            </div>
+          </div>
+
+          <!-- PREMIUM Plan  -->
+          <div
+            class="bg-[#111] border border-gray-700 rounded-2xl p-8 flex flex-col justify-between shadow-md hover:shadow-lg transition"
+          >
+            <div>
+              <h3 class="text-xl font-bold text-red-500 mb-2 text-center">
+                PREMIUM
+              </h3>
+              <p class="text-3xl font-extrabold text-white mb-1 text-center">
+                £2000
+                <span class="text-base font-normal text-gray-400 text-center"
+                  >starting from</span
+                >
+              </p>
+              <p class="text-gray-400 mb-6 text-center">
+                Complete solution for enterprise clients
+              </p>
+
+              <ul class="space-y-3 text-gray-300">
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Fully Custom Website Design
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Advanced Branding Solutions
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  24/7 Premium Support
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Advanced SEO & Marketing Tools
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  E-commerce Integration
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Social Media Campaigns
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Professional Video Editing
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Web & App Development
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  Role-based Access
+                </li>
+              </ul>
+            </div>
+            <div class="mt-8">
+              <a
+                href="#"
+                class="block w-full text-center bg-red-500 hover:bg-red-600 text-white py-3 rounded-lg font-medium transition"
+              >
+                Request a Quote
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center px-10">
+      <h2 class="text-3xl font-bold text-red-500 mb-4">
+        Have Questions About Our Pricing?
+      </h2>
+      <p class="text-gray-300 mb-8">
+        Our team is here to help you choose the perfect plan for your business
+        needs. We offer transparent pricing with no hidden fees.
+      </p>
+
+      <!-- Buttons -->
+      <div class="flex justify-center">
+        <a
+          href="#"
+          class="inline-flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-medium shadow-md"
+        >
+          Schedule Consultation
+        </a>
+      </div>
+    </div>
+
+    <!-- contact us section  -->
+
+    <section
+      class="flex justify-center items-center p-10 gp-8 lg:max-w-[95vw] mx-auto bg-black mt-5 lg:mt-30"
+      data-aos="zoom-in-up"
+      data-aos-duration="1000"
+    >
+      <div class="text-center text-balance text-pretty p-10">
+        <div
+          class="relative inline-block rounded-full px-3 py-1 text-sm text-red-500 ring-1 ring-white/10 hover:ring-white/20 mb-10"
+        >
+          Contact Us
+        </div>
+        <h2
+          class="text-5xl font-semibold tracking-tight text-balance text-white"
+        >
+          Let's Start Your
+        </h2>
+        <h2
+          class="text-5xl font-semibold tracking-tight text-balance text-red-500"
+        >
+          Digital Journey
+        </h2>
+
+        <p class="mt-6 text-lg font-medium text-gray-400 sm:text-xl/8">
+          Ready to transform your digital presence? Get in touch with our team
+          of experts. We're here to help bring your vision to life with
+          innovative design and cutting-edge technology.
+        </p>
+      </div>
+    </section>
+
+    <div
+      class="max-w-7xl mx-auto p-10 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center bg-[#111]"
+    >
+      <!-- first div  -->
+      <div class="border-b border-white/10 pb-12">
+        <h2 class="text-base/7 font-semibold text-white">Send Us A Message</h2>
+
+        <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+          <div class="sm:col-span-3">
+            <label
+              for="first-name"
+              class="block text-sm/6 font-medium text-white"
+              >First name</label
+            >
+            <div class="mt-2">
+              <input
+                id="first-name"
+                type="text"
+                name="first-name"
+                autocomplete="given-name"
+                class="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-red-500 sm:text-sm/6"
+                placeholder="jon"
+              />
+            </div>
+          </div>
+
+          <div class="sm:col-span-3">
+            <label
+              for="last-name"
+              class="block text-sm/6 font-medium text-white"
+              >Last name</label
+            >
+            <div class="mt-2">
+              <input
+                id="last-name"
+                type="text"
+                name="last-name"
+                autocomplete="family-name"
+                class="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-red-500 sm:text-sm/6"
+                placeholder="Doe"
+              />
+            </div>
+          </div>
+
+          <div class="sm:col-span-4">
+            <label for="email" class="block text-sm/6 font-medium text-white"
+              >Email address</label
+            >
+            <div class="mt-2">
+              <input
+                id="email"
+                type="email"
+                name="email"
+                autocomplete="email"
+                class="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-red-500 sm:text-sm/6"
+                placeholder="jondoe123@gmail.com"
+              />
+            </div>
+          </div>
+          <div class="sm:col-span-4">
+            <label
+              for="phone-number"
+              class="block text-sm/6 font-medium text-white"
+              >Phone Number</label
+            >
+            <div class="mt-2">
+              <input
+                id="Number"
+                type="number"
+                name="phone-number"
+                autocomplete="phone-number"
+                class="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-red-500 sm:text-sm/6"
+                placeholder="+123 456 7890"
+              />
+            </div>
+          </div>
+          <div class="sm:col-span-3">
+            <label for="services" class="block text-sm/6 font-medium text-white"
+              >Services Intrested In
+            </label>
+            <div class="mt-2">
+              <input
+                id="services"
+                type="text"
+                name="services"
+                autocomplete="message"
+                class="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-red-500 sm:text-sm/6"
+              />
+            </div>
+          </div>
+          <div class="col-span-full">
+            <label for="about" class="block text-sm/6 font-medium text-white"
+              >Project Details *
+            </label>
+            <div class="mt-2">
+              <textarea
+                id="about"
+                name="about"
+                rows="5"
+                class="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-red-500 sm:text-sm/6"
+                placeholder="Tell us about your project requirements, timeline and budget ..."
+              ></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="text-center gap-4 mt-4">
+          <a
+            href="#"
+            class="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-medium shadow-md flex items-center gap-2"
+          >
+            Schedule Consultation
+          </a>
+        </div>
+      </div>
+      <!-- second div  -->
+      <div>
+        <div
+          class="grid grid-cols-1 p-10 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-5 lg:mt-16 lg:max-w-[95vw]"
+        >
+          <div
+            class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
+          >
+            <div class="flex justify-center items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-palette-icon lucide-palette text-red-500 mb-5"
+              >
+                <path
+                  d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"
+                />
+                <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" />
+                <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" />
+                <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" />
+                <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" />
+              </svg>
+            </div>
+            <h2 class="text-white text-xl font-bold text-center mb-10">
+              UI/UX Design
+            </h2>
+            <p class="text-gray-400">
+              Human-centered, accessible interfaces that delight users and drive
+              business outcomes.
+            </p>
+          </div>
+          <div
+            class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
+          >
+            <div class="flex justify-center items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-pen-tool-icon lucide-pen-tool text-red-500 mb-5"
+              >
+                <path
+                  d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"
+                />
+                <path
+                  d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"
+                />
+                <path d="m2.3 2.3 7.286 7.286" />
+                <circle cx="11" cy="11" r="2" />
+              </svg>
+            </div>
+            <h2 class="text-white text-xl font-bold text-center mb-10">
+              Branding & Identity
+            </h2>
+            <p class="text-gray-400">
+              Distinctive brand systems, from logos to style guides, built for
+              consistency.
+            </p>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-1 p-10 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-5 lg:mt-1 lg:max-w-[95vw]"
+        >
+          <div
+            class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
+          >
+            <div class="flex justify-center items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-palette-icon lucide-palette text-red-500 mb-5"
+              >
+                <path
+                  d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"
+                />
+                <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" />
+                <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" />
+                <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" />
+                <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" />
+              </svg>
+            </div>
+            <h2 class="text-white text-xl font-bold text-center mb-10">
+              UI/UX Design
+            </h2>
+            <p class="text-gray-400">
+              Human-centered, accessible interfaces that delight users and drive
+              business outcomes.
+            </p>
+          </div>
+          <div
+            class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
+          >
+            <div class="flex justify-center items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-pen-tool-icon lucide-pen-tool text-red-500 mb-5"
+              >
+                <path
+                  d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"
+                />
+                <path
+                  d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"
+                />
+                <path d="m2.3 2.3 7.286 7.286" />
+                <circle cx="11" cy="11" r="2" />
+              </svg>
+            </div>
+            <h2 class="text-white text-xl font-bold text-center mb-10">
+              Branding & Identity
+            </h2>
+            <p class="text-gray-400">
+              Distinctive brand systems, from logos to style guides, built for
+              consistency.
+            </p>
+          </div>
+        </div>
+        <section
+          class="bg-[#1a1a1d] text-white py-12 px-6 rounded-2xl max-w-4xl mx-auto"
+        >
+          <!-- Section Title -->
+          <div class="flex items-center gap-3 mb-8">
+            <!-- People Icon -->
+            <div class="text-red-500">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-7 h-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            </div>
+            <h2 class="text-2xl font-bold">Why Choose EasyDesign Tech Ltd.?</h2>
+          </div>
+
+          <!-- Feature List -->
+          <div class="space-y-6">
+            <!-- Global Reach -->
+            <div class="flex items-start gap-4">
+              <div class="bg-red-500/10 p-3 rounded-lg text-red-500">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-6 h-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 2a15 15 0 0 0 0 20 15 15 0 0 0 0-20" />
+                  <path d="M2 12h20" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold">Global Reach</h3>
+                <p class="text-gray-400">
+                  Serving UK and international clients with world-class digital
+                  solutions.
+                </p>
+              </div>
+            </div>
+
+            <!-- 24/7 Support -->
+            <div class="flex items-start gap-4">
+              <div class="bg-red-500/10 p-3 rounded-lg text-red-500">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-6 h-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7A8.38 8.38 0 0 1 8.7 19L3 21l2-5.7A8.38 8.38 0 0 1 2.5 12a8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8.5 8.5z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold">24/7 Support</h3>
+                <p class="text-gray-400">
+                  Round-the-clock support to ensure your project runs smoothly.
+                </p>
+              </div>
+            </div>
+
+            <!-- Expert Team -->
+            <div class="flex items-start gap-4">
+              <div class="bg-red-500/10 p-3 rounded-lg text-red-500">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-6 h-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold">Expert Team</h3>
+                <p class="text-gray-400">
+                  Skilled developers and designers dedicated to your success.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="p-10 bg-red-500/10 mt-4 rounded-lg">
+          <h2 class="text-3xl font-bold text-white mb-4">
+            Ready to Get Started?
+          </h2>
+          <p class="text-gray-300 mb-8">
+            Join 200+ satisfied clients who trust us with their digital
+            transformation.
+          </p>
+
+          <!-- Buttons -->
+          <div class="text-center mt-4gap-4">
+            <a
+              href="#"
+              class="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-medium shadow-md flex items-center gap-2"
+            >
+              Call now
+            </a>
+          </div>
+          <div class="text-center mt-4 gap-4">
+            <a
+              href="#"
+              class="bg-gray-500/20 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-medium shadow-md flex items-center gap-2"
+            >
+              Email Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section  -->
+
+    <footer
+      class="bg-[#0f0f0f] text-gray-300 pt-16 pb-10 lg:max-w-[95vw] mx-auto"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12"
+      >
+        <!--  Info -->
+        <div>
+          <div class="flex items-center gap-2 mb-4">
+            <img src="images/Eassylogo.png" alt="Logo" class="w-8 h-8" />
+            <h3 class="text-white font-bold text-lg">EasyDesign Tech Ltd.</h3>
+          </div>
+          <p class="text-gray-400 mb-6">
+            Specializing in creating stunning, high-performance websites and
+            digital solutions tailored to your business needs. Transform your
+            digital presence with our innovative approach.
+          </p>
+
+          <!-- Contact -->
+          <ul class="space-y-3">
+            <li class="flex items-center gap-2">
+              <span class="text-red-500"> 📧 </span>
+              hello@easydesigntechltd.com
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-red-500"> 📞 </span>
+              +44 7404 415940
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-red-500"> 📍 </span>
+              United Kingdom
+            </li>
+          </ul>
+
+          <!-- Social Icons -->
+          <!-- <div class="flex gap-4 mt-6">
+            <a href="#" class="p-2 rounded-md bg-gray-800 hover:bg-red-500"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="p-2 rounded-md bg-gray-800 hover:bg-red-500"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="#" class="p-2 rounded-md bg-gray-800 hover:bg-red-500"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="p-2 rounded-md bg-gray-800 hover:bg-red-500"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="#" class="p-2 rounded-md bg-gray-800 hover:bg-red-500"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div> -->
+        </div>
+
+        <!-- Services -->
+        <div>
+          <h4 class="text-white font-semibold mb-4">Services</h4>
+          <ul class="space-y-3">
+            <li><a href="#" class="hover:text-red-500">Web Development</a></li>
+            <li><a href="#" class="hover:text-red-500">UI/UX Design</a></li>
+            <li><a href="#" class="hover:text-red-500">Mobile Apps</a></li>
+            <li>
+              <a href="#" class="hover:text-red-500">Digital Marketing</a>
+            </li>
+            <li><a href="#" class="hover:text-red-500">SEO Optimization</a></li>
+            <li><a href="#" class="hover:text-red-500">Branding</a></li>
+          </ul>
+        </div>
+
+        <!-- Company -->
+        <div>
+          <h4 class="text-white font-semibold mb-4">Company</h4>
+          <ul class="space-y-3">
+            <li><a href="#" class="hover:text-red-500">About Us</a></li>
+            <li><a href="#" class="hover:text-red-500">Our Team</a></li>
+            <li><a href="#" class="hover:text-red-500">Portfolio</a></li>
+            <li><a href="#" class="hover:text-red-500">Careers</a></li>
+            <li><a href="#" class="hover:text-red-500">Blog</a></li>
+            <li><a href="#" class="hover:text-red-500">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Support -->
+        <div>
+          <h4 class="text-white font-semibold mb-4">Support</h4>
+          <ul class="space-y-3">
+            <li><a href="#" class="hover:text-red-500">Help Center</a></li>
+            <li><a href="#" class="hover:text-red-500">Documentation</a></li>
+            <li><a href="#" class="hover:text-red-500">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-red-500">Terms of Service</a></li>
+            <li><a href="#" class="hover:text-red-500">Cookie Policy</a></li>
+            <li><a href="#" class="hover:text-red-500">Support</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="max-w-7xl mx-auto px-6 mt-12 border-t border-gray-800 pt-8">
+        <h4 class="text-white font-semibold mb-2">Stay Updated</h4>
+        <p class="text-gray-400 mb-4">
+          Subscribe to our newsletter for the latest updates and digital
+          insights.
+        </p>
+
+        <form class="flex flex-col sm:flex-row gap-4">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="flex-1 px-4 py-3 rounded-md bg-gray-800 text-gray-200 focus:outline-none"
+          />
+          <button
+            class="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-md font-medium"
+          >
+            Subscribe
+          </button>
+        </form>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div
+        class="max-w-7xl mx-auto px-6 mt-12 flex flex-col sm:flex-row justify-between items-center text-gray-500 text-sm border-t border-gray-800 pt-6"
+      >
+        <p>© 2025 EasyDesign Tech Ltd. All rights reserved.</p>
+        <div class="flex gap-6 mt-4 sm:mt-0">
+          <a href="#" class="hover:text-red-500">Privacy Policy</a>
+          <a href="#" class="hover:text-red-500">Terms of Service</a>
+          <a href="#" class="hover:text-red-500">Cookie Policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
