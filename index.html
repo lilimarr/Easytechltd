@@ -12,7 +12,9 @@
 
     <!-- desktop nav  -->
 
-    <nav class="fixed top-0 left-0 w-full bg-black text-white shadow-md z-50">
+    <nav
+      class="fixed top-0 left-0 w-full bg-gray-500/10 backdrop-blur-md text-white shadow-md z-50 border-b border-gray-500/50"
+    >
       <div
         class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4"
       >
@@ -63,76 +65,84 @@
     </div>
 
     <!-- hero section  -->
-    <section
-      class="grid grid-cols-1 lg:grid-cols-2 pt-1 items-center lg:max-w-[95vw] mx-auto bg-gray-500/10 mt-20 lg:mx-auto"
-    >
-      <div class="relative isolate px-6 pt-4 lg:px-2">
-        <div class="mx-auto max-w-2xl">
-          <div class="sm:mb-8 sm:flex sm:justify-left">
-            <div
-              class="relative rounded-full px-3 py-1 text-sm/6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20 mb-10"
-            >
-              Welcome to EasyDesign Tech Ltd.
-            </div>
-          </div>
-          <div class="text-left">
-            <h1
-              class="text-6xl font-semibold tracking-tight text-balance text-white sm:text-7xl"
-            >
-              Let's Build
-            </h1>
-            <h1
-              class="text-6xl font-semibold tracking-tight text-balance text-red-500 sm:text-7xl"
-            >
-              The Future Together
-            </h1>
-            <p
-              class="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8"
-            >
-              We power your brand with seamless
-              <span class="text-red-500">eSIM solutions</span>, stunning
-              <span class="text-red-500">web & app development</span>, bold
-              <span class="text-red-500">branding</span>, and smart
-              <span class="text-red-500">data systems</span> - all crafted to
-              help your business grow faster and smarter.
-            </p>
-            <p
-              class="mt-5 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8"
-            >
-              Tech made simple. Results made real.
-            </p>
-            <div
-              class="mt-10 flex flex-col items-center justify-left gap-x-6 sm:flex-row sm:items-center sm:justify-start sm:gap-x-6"
-            >
-              <a
-                href="#"
-                class="rounded-md bg-red-500 px-24 py-2.5 lg:px-8.5 text-sm font-semibold text-white shadow-xs hover:bg-red-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 sm:mb-0 mb-4"
-                >Start Your Journey <span aria-hidden="true">→</span></a
-              >
-              <a
-                href="#"
-                class="rounded-md bg-gray-500/20 px-28 py-2.5 lg:px-6.5 text-sm font-semibold text-white shadow-xs hover:bg-red-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-                >View Portfolio <span aria-hidden="true">▷</span>
-              </a>
-            </div>
-          </div>
-        </div>
+    <div class="bg-gray-500/10">
+      <section
+        class="grid grid-cols-1 lg:grid-cols-2 pt-1 items-center lg:max-w-[95vw] mx-auto pt-20 lg:mx-auto"
+      >
+        <!-- glowing radient circle  -->
         <div
-          aria-hidden="true"
-          class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+          class="hidden lg:flex bg-red-500/40 p-20 max-w-40 absolute rounded-full left-10 blur-3xl animate-pulse"
         ></div>
-      </div>
+        <div class="relative isolate px-6 pt-4 lg:px-2">
+          <div class="mx-auto max-w-2xl">
+            <div class="sm:mb-8 sm:flex justify-left">
+              <div
+                class="relative w-fit rounded-full px-3 py-1 text-sm/6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20 mb-10"
+              >
+                Welcome to EasyDesign Tech Ltd.
+              </div>
+            </div>
+            <div class="text-left">
+              <h1
+                class="text-6xl font-semibold tracking-tight text-balance text-white sm:text-7xl"
+              >
+                Let's Build
+              </h1>
+              <h1
+                class="text-6xl font-semibold tracking-tight text-balance text-red-500 sm:text-7xl"
+              >
+                The Future Together
+              </h1>
+              <p
+                class="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8"
+              >
+                We power your brand with seamless
+                <span class="text-red-500">eSIM solutions</span>, stunning
+                <span class="text-red-500">web & app development</span>, bold
+                <span class="text-red-500">branding</span>, and smart
+                <span class="text-red-500">data systems</span> - all crafted to
+                help your business grow faster and smarter.
+              </p>
+              <p
+                class="mt-5 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8"
+              >
+                Tech made simple. Results made real.
+              </p>
+              <div
+                class="mt-10 flex flex-col items-center justify-left gap-x-6 sm:flex-row sm:items-center sm:justify-start sm:gap-x-6"
+              >
+                <a
+                  href="#"
+                  class="rounded-md bg-red-500 px-24 py-2.5 lg:px-8.5 text-sm font-semibold text-white shadow-xs hover:bg-red-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 sm:mb-0 mb-4"
+                  >Start Your Journey <span aria-hidden="true">→</span></a
+                >
+                <a
+                  href="#"
+                  class="rounded-md bg-gray-500/20 px-28 py-2.5 lg:px-6.5 text-sm font-semibold text-white shadow-xs hover:bg-red-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                  >View Portfolio <span aria-hidden="true">▷</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+          ></div>
+        </div>
 
-      <div class="flex-1 flex justify-end items-center p-10 md:justify-center">
-        <img
-          src="images/robot.png"
-          alt="robot"
-          class="rounded-2xl shadow-lg w-100"
-          data-aos="flip-right"
-          data-aos-duration="1000"
-        />
-      </div>
-    </section>
+        <div
+          class="flex-1 flex justify-end items-center p-10 md:justify-center"
+        >
+          <img
+            src="images/robot.png"
+            alt="robot"
+            class="rounded-2xl shadow-lg w-100"
+            data-aos="flip-right"
+            data-aos-duration="1000"
+          />
+        </div>
+      </section>
+    </div>
     <!-- about section  -->
     <section class="grid grid-cols-1 lg:grid-cols-2 lg:max-w-[95vw] mx-auto">
       <div class="p-8">
@@ -184,32 +194,32 @@
               <p
                 class="flex items-center gap-2 text-gray-400 sm:text-xl/8 pt-6"
               >
-                <img src="images/tick1.png" alt="" />
+                <img src="images/tick1.png" alt="" class="w-6" />
                 Stunning, high-performance websites
               </p>
 
               <p
                 class="flex items-center gap-2 text-gray-400 sm:text-xl/8 pt-2"
               >
-                <img src="images/tick1.png" alt="" />
+                <img src="images/tick1.png" alt="" class="w-6" />
                 Tailored digital solutions
               </p>
               <p
                 class="flex items-center gap-2 text-gray-400 sm:text-xl/8 pt-2"
               >
-                <img src="images/tick1.png" alt="" />
+                <img src="images/tick1.png" alt="" class="w-6" />
                 Innovative web development services
               </p>
               <p
                 class="flex items-center gap-2 text-gray-400 sm:text-xl/8 pt-2"
               >
-                <img src="images/tick1.png" alt="" class="text-red-500" />
+                <img src="images/tick1.png" alt="" class="text-red-500 w-6" />
                 Results-driven design approach
               </p>
               <p
                 class="flex items-center gap-2 text-gray-400 sm:text-xl/8 pt-2"
               >
-                <img src="images/tick1.png" alt="" />
+                <img src="images/tick1.png" alt="" class="w-6" />
                 Complete digital transformation
               </p>
             </div>
@@ -227,7 +237,7 @@
       <div class="space-y-6 p-6 pt-10 lg:pt-60">
         <!-- Card 1 -->
         <div
-          class="flex items-start space-x-4 rounded-xl bg-gray-500/20 p-6 border border-gray-800"
+          class="flex items-start space-x-4 rounded-xl bg-gray-500/20 hover:shadow-[-6px_8px_25px_7px_#EF444433] transition-all duration-500 p-6 border border-gray-800"
           data-aos="zoom-in-down"
           data-aos-duration="1000"
         >
@@ -253,7 +263,7 @@
 
         <!-- Card 2 -->
         <div
-          class="flex items-start space-x-4 rounded-xl bg-gray-500/20 p-6 border border-gray-800"
+          class="flex items-start space-x-4 rounded-xl bg-gray-500/20 p-6 border border-gray-800 hover:shadow-[-6px_8px_25px_7px_#EF444433] transition-all duration-500"
           data-aos="zoom-in-down"
           data-aos-duration="1000"
         >
@@ -279,7 +289,7 @@
 
         <!-- Card 3 -->
         <div
-          class="flex items-start space-x-4 rounded-xl bg-gray-500/20 p-6 border border-gray-800"
+          class="flex items-start space-x-4 rounded-xl bg-gray-500/20 p-6 border border-gray-800 hover:shadow-[-6px_8px_25px_7px_#EF444433] transition-all duration-500"
           data-aos="zoom-in-down"
           data-aos-duration="1000"
         >
@@ -305,7 +315,7 @@
 
     <!-- esim section  -->
     <section
-      class="flex justify-center items-center p-10 gp-8 lg:max-w-[95vw] mx-auto bg-black mt-10 lg:mt-30"
+      class="flex justify-center items-center p-10 gp-8 lg:max-w-[95vw] mx-auto mt-10 lg:mt-30"
       data-aos="zoom-in-up"
       data-aos-duration="1000"
     >
@@ -325,16 +335,18 @@
         >
           Worldwide
         </h2>
-        <p class="mt-6 text-lg font-medium text-gray-400 sm:text-xl/8">
+        <p
+          class="mt-6 text-lg font-medium text-gray-400 sm:text-xl/8 max-w-3xl mx-auto text-center"
+        >
           Experience seamless global connectivity with our advanced eSIM
           solutions. No more switching SIM cards or worrying about roaming
           charges.
         </p>
       </div>
     </section>
-    <section class="bg-black px-6 py-16 lg:max-w-[95vw] mx-auto bg-gray-500/10">
+    <section class="lg:max-w-[95vw] mx-auto">
       <div
-        class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center bg-[#111] rounded-2xl overflow-hidden"
+        class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center bg-[#111] rounded-2xl overflow-hidden"
         data-aos="zoom-in-up"
         data-aos-duration="1000"
       >
@@ -381,7 +393,7 @@
             </a>
             <a
               href="#"
-              class="bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-medium shadow-md"
+              class="bg-gray-600 hover:bg-gray-500 text-white px-6 py-3 rounded-lg font-medium shadow-md"
             >
               View Data Plans
             </a>
@@ -390,7 +402,7 @@
 
         <!-- Right Image -->
         <div class="relative">
-          <img src="images/phomesim.png" alt="" />
+          <img src="images/phomesim.png" alt="" class="px-5" />
         </div>
       </div>
       <div
@@ -398,7 +410,9 @@
         data-aos="zoom-in-up"
         data-aos-duration="1000"
       >
-        <div class="bg-[#111] p-6 rounded-lg text-white gap-6">
+        <div
+          class="bg-[#111] p-6 rounded-lg text-white gap-6 hover:shadow-[-6px_8px_25px_7px_#EF444433] transition-all duration-500 hover:-translate-y-2"
+        >
           <div class="flex justify-center items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -426,7 +440,9 @@
             coverage.
           </p>
         </div>
-        <div class="bg-[#111] p-6 rounded-lg text-white gap-6">
+        <div
+          class="bg-[#111] p-6 rounded-lg text-white gap-6 hover:shadow-[-6px_8px_25px_7px_#EF444433] transition-all duration-500 hover:-translate-y-2"
+        >
           <div class="flex justify-center items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -453,7 +469,9 @@
             required.
           </p>
         </div>
-        <div class="bg-[#111] p-6 rounded-lg text-white gap-6">
+        <div
+          class="bg-[#111] p-6 rounded-lg text-white gap-6 hover:shadow-[-6px_8px_25px_7px_#EF444433] transition-all duration-500 hover:-translate-y-2"
+        >
           <div class="flex justify-center items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -481,7 +499,9 @@
           </p>
         </div>
 
-        <div class="bg-[#111] p-6 rounded-lg text-white gap-6">
+        <div
+          class="bg-[#111] p-6 rounded-lg text-white gap-6 hover:shadow-[-6px_8px_25px_7px_#EF444433] transition-all duration-500 hover:-translate-y-2"
+        >
           <div class="flex justify-center items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -713,6 +733,9 @@
       data-aos="zoom-in-up"
       data-aos-duration="1000"
     >
+      <div
+        class="hidden lg:flex bg-red-500/40 p-30 max-w-40 absolute rounded-full right-30 blur-3xl animate-pulse"
+      ></div>
       <div class="text-center text-balance text-pretty">
         <div
           class="relative inline-block rounded-full px-3 py-1 text-sm text-red-500 ring-1 ring-white/10 hover:ring-white/20 mb-10"
@@ -925,13 +948,6 @@
           </a>
         </div>
       </div>
-    </div>
-
-    <div
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-10 lg:max-w-[95vw] mx-auto"
-      data-aos="zoom-in-up"
-      data-aos-duration="1000"
-    >
       <div
         class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
       >
@@ -1921,10 +1937,6 @@
               consistency.
             </p>
           </div>
-        </div>
-        <div
-          class="grid grid-cols-1 p-10 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-5 lg:mt-1 lg:max-w-[95vw]"
-        >
           <div
             class="bg-[#111] p-6 rounded-lg text-white gap-6 border border-gray-700 rounded-2xl"
           >
@@ -1993,6 +2005,7 @@
             </p>
           </div>
         </div>
+
         <section
           class="bg-[#1a1a1d] text-white py-12 px-6 rounded-2xl max-w-4xl mx-auto"
         >
